@@ -1,0 +1,22 @@
+.footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer {
+      font-size: 12px;
+      padding: 5px;
+    }
+  }
+  

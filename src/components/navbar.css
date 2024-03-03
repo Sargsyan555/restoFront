@@ -1,0 +1,39 @@
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    
+}
+nav ul li{
+    padding: .8rem 1rem;
+
+}
+@media only screen and (min-width: 100em){
+    nav .logo{
+        color: rgb(43, 151, 58);
+        padding: 0px 30px;
+        cursor: pointer;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(80, 74, 74);
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        background-color: none;
+    }
+    nav ul li{
+        border-bottom: none;
+        flex: 1 0 auto;
+        color: rgb(43, 151, 58);
+        cursor: pointer;
+        width: 80px;
+        text-align: center;
+        font-size: 20px;
+    }
+    nav ul li:hover{
+        background-color: rgb(29, 28, 29, 0.5);
+    }
+}

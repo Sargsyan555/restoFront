@@ -1,0 +1,35 @@
+
+.selectedFood ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+.selectedFood h2{
+    font-size: 50px;
+}
+.selectedFood ul li{
+    border: 1px solid black;
+    width: 30%;
+    height: 600px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+}
+.selectedFood{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+.selectedFood h2{
+    text-transform: uppercase;
+}
+.selectedFood ul li .info{
+    margin-top: 35px;
+}
+.selectedFood ul li .info h4{
+    font-size: 25px;
+}
